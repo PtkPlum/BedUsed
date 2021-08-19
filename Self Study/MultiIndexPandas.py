@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import os
 
-#pd.read_excel("Test.xlsx", header=[0, 1])
+#df = pd.read_csv("Test.csv", header=[0, 1], encoding="utf8")
 df = pd.DataFrame(abs(np.random.randn(10, 4)))
 
 df.columns = [['ต้นทุนต่อหน่วย', 'ต้นทุนต่อหน่วย', 'ราคาขายต่อหน่วย', 'ราคาขายต่อหน่วย'], ['ทางตรง', 'ทางอ้อม', 'ทางตรง', 'ทางอ้อม']]
